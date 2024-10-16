@@ -8,7 +8,7 @@ public class Gerente extends Funcionario{
 		// TODO Auto-generated constructor stub
 	}
 
-	public Gerente(String nome, int matricula, double salario_base, Local sala) {
+	public Gerente(String nome, int matricula, double salario_base, Local2 sala) {
 		super(nome, matricula, salario_base, sala);
 		// TODO Auto-generated constructor stub
 	}

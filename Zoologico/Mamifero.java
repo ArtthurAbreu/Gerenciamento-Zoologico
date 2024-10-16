@@ -6,11 +6,11 @@ public class Mamifero extends Animal{
 	 private String cordepelo;
 	 private int tempodegestacao;
 
-	 public Mamifero() {
-	  super();
-	  this.cordepelo = "cordepelo";
-	  this.tempodegestacao = 0;
-	 }
+	//  public Mamifero() {
+	//   super();
+	//   this.cordepelo = "cordepelo";
+	//   this.tempodegestacao = 0;
+	//  }
 	
 	 
 	 

@@ -4,16 +4,16 @@ public abstract class Funcionario {
 	private String nome;
 	private int matricula;
 	private double salario_base;
-	private Local sala;
+	private Local2 sala;
 	
 	public Funcionario() {
 		this.nome = "-";
 		this.matricula = 00;
 		this.salario_base = 00.00;
-		this.sala = new Local();
+		this.sala = new Local2();
 	}
 	
-	public Funcionario(String nome, int matricula, double salario_base, Local sala) {
+	public Funcionario(String nome, int matricula, double salario_base, Local2 sala) {
 		this.nome = nome;
 		this.matricula = matricula;
 		this.salario_base = salario_base;
@@ -56,11 +56,11 @@ public abstract class Funcionario {
 		this.salario_base = salario_base;
 	}
 	
-	public Local getSala() {
+	public Local2 getSala() {
 		return sala;
 	}
 
-	public void setSala(Local sala) {
+	public void setSala(Local2 sala) {
 		this.sala = sala;
 	}
 

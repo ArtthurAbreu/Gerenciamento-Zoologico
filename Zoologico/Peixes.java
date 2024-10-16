@@ -5,10 +5,10 @@ import javax.swing.JOptionPane;
 public class Peixes extends Animal {
 	private String cordeescama;
 
-	  public Peixes() {
-	   super();
-	   this.cordeescama = "cordeescama";
-	  }
+	//   public Peixes() {
+	//    super();
+	//    this.cordeescama = "cordeescama";
+	//   }
 
 	  public Peixes(double peso, int membros, int idade, String nome, Local jaula, int idAnimal, String cordeescama) {
 	   super(peso, membros, idade, nome, jaula, idAnimal);

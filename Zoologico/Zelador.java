@@ -8,7 +8,7 @@ public class Zelador extends Funcionario {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Zelador(String nome, int matricula, double salario_base, Local sala) {
+	public Zelador(String nome, int matricula, double salario_base, Local2 sala) {
 		super(nome, matricula, salario_base, sala);
 		// TODO Auto-generated constructor stub
 	}

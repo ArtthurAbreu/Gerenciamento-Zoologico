@@ -4,12 +4,12 @@ import javax.swing.JOptionPane;
 
 public class Anfibios extends Animal {
 	
-	public Anfibios() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+	// public Anfibios() {
+	// 	super();
+	// 	// TODO Auto-generated constructor stub
+	// }
 
-	public Anfibios(double peso, int membros, int idade, String nome, Local jaula, int idAnimal) {
+	public Anfibios(double peso, int membros, int idade, String nome, Local2 jaula, int idAnimal) {
 		super(peso, membros, idade, nome, jaula, idAnimal);
 		// TODO Auto-generated constructor stub
 	}
