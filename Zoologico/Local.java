@@ -7,6 +7,10 @@ public class Local {
         this.numeroJaula = numeroJaula;
     }
 
+    public int getNumeroJaula() {
+        return numeroJaula;
+    }
+
     @Override
     public String toString() {
         return "Jaula número " + numeroJaula;
