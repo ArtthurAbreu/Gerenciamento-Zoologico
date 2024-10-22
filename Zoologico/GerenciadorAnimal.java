@@ -21,13 +21,13 @@ public class GerenciadorAnimal implements Gerenciador {
 
 	public void AddAnimal(Animal A) {
 		
-		if(listaAnimal.size()== 0 && 15 > A.getJaula().getNumLocal()){
+		if(listaAnimal.size()== 0 && 15 > A.getJaula()){
 		JOptionPane.showMessageDialog(null, "ANIMAL NÃO PODE SER ADICIONADO!", "ERRO", JOptionPane.ERROR_MESSAGE);
 		return;
 		}
 		for (Animal Z : listaAnimal) {
-			if (A.getIdAnimal() == Z.getIdAnimal() || A.getJaula().getNumLocal() == Z.getJaula().getNumLocal()
-					|| 15 > A.getJaula().getNumLocal()) {
+			if (A.getIdAnimal() == Z.getIdAnimal() || A.getJaula() == Z.getJaula()
+					|| 15 > A.getJaula()) {
 				JOptionPane.showMessageDialog(null, "ANIMAL NÃO PODE SER ADICIONADO!", "ERRO", JOptionPane.ERROR_MESSAGE);
 				return;
 			}
