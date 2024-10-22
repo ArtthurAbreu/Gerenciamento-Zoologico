@@ -44,7 +44,7 @@ public class Principal {
 														JOptionPane.INFORMATION_MESSAGE)),
 												JOptionPane.showInputDialog(null, "NOME DO ANFÍBIO:", "ANFÍBIOS",
 														JOptionPane.INFORMATION_MESSAGE),
-												new Local2(Integer.parseInt(JOptionPane.showInputDialog(null,
+												new Local(Integer.parseInt(JOptionPane.showInputDialog(null,
 														"INFORME O NÚMERO DA JAULA DO ANFÍBIO: ", "ANFÍBIOS", JOptionPane.INFORMATION_MESSAGE)), 2),
 												Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME O ID DO ANFÍBIO: ", "ANFÍBIOS",
 														JOptionPane.INFORMATION_MESSAGE))));
@@ -60,7 +60,7 @@ public class Principal {
 												Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME A IDADE DA AVE: ", "AVES",
 														JOptionPane.INFORMATION_MESSAGE)),
 												JOptionPane.showInputDialog(null, "NOME DA AVE: ", "AVES", JOptionPane.INFORMATION_MESSAGE),
-												new Local2(Integer.parseInt(JOptionPane.showInputDialog(null,
+												new Local(Integer.parseInt(JOptionPane.showInputDialog(null,
 														"INFORME O NÚMERO DA JAULA DA AVE: ", "AVES", JOptionPane.INFORMATION_MESSAGE)), 3),
 												Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME O ID DA AVE: ", "AVES",
 														JOptionPane.INFORMATION_MESSAGE)),
@@ -78,7 +78,7 @@ public class Principal {
 														JOptionPane.INFORMATION_MESSAGE)),
 												JOptionPane.showInputDialog(null, "NOME DO MAMÍFERO: ", "MAMÍFEROS",
 														JOptionPane.INFORMATION_MESSAGE),
-												new Local2(Integer.parseInt(JOptionPane.showInputDialog(null,
+												new Local(Integer.parseInt(JOptionPane.showInputDialog(null,
 														"INFORME O NÚMERO DA JAULA DO MAMÍFERO: ", "MAMÍFEROS", JOptionPane.INFORMATION_MESSAGE)),
 														4),
 												Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME O ID DO MAMÍFERO: ", "MAMÍFEROS",
@@ -97,7 +97,7 @@ public class Principal {
 												Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME A IDADE DO PEIXE: ", "PEIXE",
 														JOptionPane.INFORMATION_MESSAGE)),
 												JOptionPane.showInputDialog(null, "NOME DO PEIXE: ", "PEIXE", JOptionPane.INFORMATION_MESSAGE),
-												new Local2(Integer.parseInt(JOptionPane.showInputDialog(null,
+												new Local(Integer.parseInt(JOptionPane.showInputDialog(null,
 														"INFORME O NÚMERO DO AQUARIO DO PEIXE: ", "PEIXE", JOptionPane.INFORMATION_MESSAGE)), 5),
 												Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME O ID DO PEIXE: ", "PEIXE",
 														JOptionPane.INFORMATION_MESSAGE)),
@@ -114,7 +114,7 @@ public class Principal {
 														JOptionPane.INFORMATION_MESSAGE)),
 												JOptionPane.showInputDialog(null, "NOME DO RÉPTIL: ", "RÉPTEIS",
 														JOptionPane.INFORMATION_MESSAGE),
-												new Local2(Integer.parseInt(JOptionPane.showInputDialog(null,
+												new Local(Integer.parseInt(JOptionPane.showInputDialog(null,
 														"INFORME O NÚMERO DA JAULA DO RÉPTIL: ", "RÉPTEIS", JOptionPane.INFORMATION_MESSAGE)), 6),
 												Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME O ID DO RÉPTIL: ", "RÉPTEIS",
 														JOptionPane.INFORMATION_MESSAGE)),
@@ -249,7 +249,7 @@ public class Principal {
 														JOptionPane.INFORMATION_MESSAGE)),
 												Double.parseDouble(JOptionPane.showInputDialog(null, "SALÁRIO BASE DO GERENTE: ", "GERENTE",
 														JOptionPane.INFORMATION_MESSAGE)),
-												new Local2(Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME A SALA DO GERENTE: ",
+												new Local(Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME A SALA DO GERENTE: ",
 														"GERENTE", JOptionPane.INFORMATION_MESSAGE)), 1)));
 										break;
 
@@ -261,7 +261,7 @@ public class Principal {
 														JOptionPane.INFORMATION_MESSAGE)),
 												Double.parseDouble(JOptionPane.showInputDialog(null, "SALÁRIO BASE DO VETERINÁRIO: ",
 														"VETERINÁRIO", JOptionPane.INFORMATION_MESSAGE)),
-												new Local2(Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME A SALA DO VETERINÁRIO: ",
+												new Local(Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME A SALA DO VETERINÁRIO: ",
 														"VETERINÁRIO", JOptionPane.INFORMATION_MESSAGE)), 1),
 												250,
 												Integer.parseInt(JOptionPane.showInputDialog(null, "QUANTIDADE DE ANIMAIS ATENDIDOS: ",
@@ -275,7 +275,7 @@ public class Principal {
 														JOptionPane.INFORMATION_MESSAGE)),
 												Double.parseDouble(JOptionPane.showInputDialog(null, "SALÁRIO BASE DO ZELADOR: ", "ZELADOR",
 														JOptionPane.INFORMATION_MESSAGE)),
-												new Local2(Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME A SALA DO ZELADOR: ",
+												new Local(Integer.parseInt(JOptionPane.showInputDialog(null, "INFORME A SALA DO ZELADOR: ",
 														"ZELADOR", JOptionPane.INFORMATION_MESSAGE)), 1)));
 										break;
 									default:

@@ -6,10 +6,10 @@ public class Repteis extends Animal{
 	 private String cordeescama;
 
 	  
-	//   public Repteis() {
-	//    super();
-	//    this.cordeescama = "cordeescama";
-	//   }
+	  public Repteis() {
+	   super();
+	   this.cordeescama = "cordeescama";
+	  }
 
 	  public Repteis(double peso, int membros, int idade, String nome, Local jaula,int idAnimal, String cordeescama) {
 	   super(peso, membros, idade, nome, jaula, idAnimal);

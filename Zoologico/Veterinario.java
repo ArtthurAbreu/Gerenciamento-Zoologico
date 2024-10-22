@@ -13,7 +13,7 @@ public class Veterinario extends Funcionario {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Veterinario(String nome, int matricula, double salario_base, Local2 sala, double comissaoAnimal, int quantAnimais) {
+	public Veterinario(String nome, int matricula, double salario_base, Local sala, double comissaoAnimal, int quantAnimais) {
 		super(nome, matricula, salario_base, sala);
 		this.comissaoAnimal = comissaoAnimal;
 		this.quantAnimais = quantAnimais;
