@@ -7,7 +7,7 @@ public class ReptilAdapter extends Animal {
         super(reptil.getPesoReptil(), 0, 0, reptil.getNomeReptil(), new Local(0), 0);  // Adaptar valores padrão
         this.reptil = reptil;
     }
-
+//ff
     @Override
     public void InfoAnimais() {
         reptil.exibirInformacoes();
